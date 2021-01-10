@@ -1,0 +1,3 @@
+/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/bin/Release/ReorientAfterEating.dll
+/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/obj/Release/ReorientAfterEating.csproj.CoreCompileInputs.cache
+/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/obj/Release/ReorientAfterEating.dll

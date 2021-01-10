@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ReorientAfterEating/manifest.json">
+    <Files>
+      <File FileName="ReorientAfterEating/ModEntry.cs" Line="53" Column="9" />
+      <File FileName="ReorientAfterEating/manifest.json" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReorientAfterEating" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="ReorientAfterEating" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="manifest.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <AuthorInfo Name="PunningLinguist" Email="" Copyright="Copyright (c) 2021" Company="" Trademark="" />
+</Properties>
