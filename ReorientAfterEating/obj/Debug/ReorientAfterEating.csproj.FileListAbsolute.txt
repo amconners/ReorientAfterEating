@@ -1,6 +1,0 @@
-/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/bin/Debug/ReorientAfterEating.dll
-/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/bin/Debug/ReorientAfterEating.pdb
-/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/obj/Debug/ReorientAfterEating.csprojAssemblyReference.cache
-/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/obj/Debug/ReorientAfterEating.csproj.CoreCompileInputs.cache
-/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/obj/Debug/ReorientAfterEating.dll
-/home/megan/Projects/ReorientAfterEating/ReorientAfterEating/obj/Debug/ReorientAfterEating.pdb
