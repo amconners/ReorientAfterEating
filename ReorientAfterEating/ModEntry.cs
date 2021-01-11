@@ -1,6 +1,7 @@
 ﻿using System;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
+using StardewModdingAPI.Utilities;
 using StardewValley;
 
 namespace ReorientAfterEating
@@ -14,12 +15,12 @@ namespace ReorientAfterEating
         /// <summary>
         /// If the farmer was eating since direction was last saved.
         /// </summary>
-        private bool wasEating = false;
+        private readonly PerScreen<bool> wasEating = new PerScreen<bool>();
 
         /// <summary>
         /// Remembers the direction the farmer was facing before eating.
         /// </summary>
-        private int oldDirection;
+        private readonly PerScreen<int> oldDirection = new PerScreen<int>();
 
         /*********
         ** Public methods
@@ -40,14 +41,14 @@ namespace ReorientAfterEating
         /// <param name="e">The event data.</param>
         private void OnUpdateTicked(object sender, EventArgs e)
         {
-            if (Game1.player.isEating && !this.wasEating)
+            if (Game1.player.isEating && !this.wasEating.Value)
             {
-                this.wasEating = true;
+                this.wasEating.Value = true;
             }
-            else if (!Game1.player.isEating && this.wasEating)
+            else if (!Game1.player.isEating && this.wasEating.Value)
             {
-                Game1.player.faceDirection(oldDirection);
-                this.wasEating = false;
+                Game1.player.faceDirection(oldDirection.Value);
+                this.wasEating.Value = false;
             }
         }
 
@@ -58,7 +59,7 @@ namespace ReorientAfterEating
         {
             if (Game1.activeClickableMenu == null)
             {
-                oldDirection = Game1.player.FacingDirection;
+                oldDirection.Value = Game1.player.FacingDirection;
             }
         }
     }
